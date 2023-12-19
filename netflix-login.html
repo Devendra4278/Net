@@ -1,0 +1,267 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+           
+           
+        }
+        .email-container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            justify-content: center;
+        }
+        #email-sec{
+            width: 300px;
+            height: 50px;
+            background-color: rgb(91, 85, 85);
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+           
+        }
+        #email-sec::placeholder{
+            color: rgb(161, 158, 158);
+            font-size: 16px;
+        }
+        #pass-sec{
+            width: 300px;
+            height: 50px;
+            padding-left: 15px;
+            background-color: rgb(91, 85, 85);
+            border: none;
+            border-radius: 5px;
+        }
+        #pass-sec::placeholder{
+            color: rgb(161, 158, 158);
+            font-size: 16px;   
+        }
+        .sign-in{
+            margin-left: 50px;
+            font-size: 25px;
+            color: white;
+            margin-top: 70px;
+        }
+        .sign-butt{
+            width: 300px;
+            height: 50px;
+            margin-top: 35px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sign-butt:hover{
+            background-color: rgb(181, 34, 34);
+            transition-duration: 0.175s;
+        }
+        .container-2{
+            display: flex;
+            margin-top: 10px;
+            color: white;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+           
+        }
+        .help-sec{
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .help-sec:hover{
+            text-decoration: underline;
+        }
+        #check{
+            margin-left: 50px;
+            font-size: 18px;
+        }
+        #para{
+            display: block;
+            font-size: 18px;
+            color: rgb(91, 85, 85);
+        }
+        .para2{
+            font-size: 14px;
+            color: rgb(91, 85, 85);
+        }
+        .link-1{
+            color: white;
+            text-decoration: none;
+        }
+        .link-1:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .footer-netflix{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        
+        }
+        #netflix-footer{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            height: 220px;
+        
+
+        }
+        .link{
+            color: rgb(91, 85, 85);
+            text-decoration: none;
+            width: fit-content;
+        }
+        .link:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .box{
+            width: 400px;
+            height: 80vh;
+            background-color: rgba(0,0,0,.75);
+            border: none;
+            border-radius: 5px;
+        }
+        .last-cell{
+            
+            background: transparent;
+            font-size: 18px;
+            color: rgb(91, 85, 85);
+          
+            
+        }
+        .link2{
+            color: blue;
+            text-decoration: none;
+        }
+        .link2:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        body{
+            background-image: url(IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        }
+        .sec-foot{
+             position: absolute;
+            border: none;
+            margin-left: -8px;
+            background-color:  rgba(0,0,0,.75);
+            margin-top: 50px;
+            width: 100%;
+       
+        }
+        body{
+            background-color: black;
+            scroll-behavior: smooth;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .img-container{
+            font-size:4.5rem;
+            color: red;
+            margin-left: 80px;
+            margin-top: 30px;
+        }
+        .sign-link{
+            color: white;
+            text-decoration: none; 
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="img-container">
+            NETFLIX
+    </div>
+    <div class="container">
+        <fieldset class="box">
+            <p class="sign-in">Sign IN</p>
+            <div class="email-container">
+                
+                <div>
+                    <input id="email-sec" autocomplete="off" type="email" placeholder="Email or phone number">
+                </div>
+                
+              <div>
+                <input id="pass-sec" type="password" placeholder="password">
+    
+              </div>
+              <div>
+                <button class="Sign-butt">
+                  
+                    Sign In
+                </button>
+              </div>
+              <div class="container-2">
+                <div>
+                    <input id="check"  type="checkbox" placeholder="">
+                <label for="check">Remeber me</label>
+                </div>
+                <div>
+                    <p class="help-sec">
+                        Need help?
+                    </p>
+                </div>
+              </div>
+              <p id="para">
+                New to Netflix?<a class="link-1" href="netflix.htm">Sign up now</a>
+    
+              </p>
+              <p class="para2">
+                Sign in protected by Google reCAPTCHA to ensure <br>
+                you're not bot. <a class="link2" href="#"> !<[CDATA[b>Learn more.b>]]></a>
+              </p>
+            </div>
+    </div>
+  
+      
+    </fieldset>
+
+    <fieldset class="sec-foot">
+        <div class="last-cell">
+            <p class="customer-care">Questions? call <a class="link" href="#">000-800-919-1694</a></p>
+            <footer id="netflix-footer">
+           
+        
+                <ul  class="footer-netflix">
+                    <a class="link" href="#">FAQ</a>
+                    <a class="link" href="#">Cookie Preferences</a>
+                   
+                </ul>
+                <ul  class="footer-netflix">
+                    <a class="link" href="#">Help Centre</a>
+                    <a class="link" href="#">Corporate Information</a>
+                  
+                </ul>
+                <ul  class="footer-netflix">
+                    <a class="link" href="#">Terms of Use</a>
+                   
+                </ul>
+                <ul  class="footer-netflix">
+                    <a class="link" href="#">Privacy</a>
+                    
+                
+                </ul>
+              
+        
+            </footer>
+        </div>
+    </fieldset>
+
+
+</body>
+</html>
